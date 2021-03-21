@@ -11,12 +11,8 @@
     "format:write": "prettier --write ./src",
     "lint": "eslint --ext .jsx --ext .js src/",
     "lint:fix": "eslint --fix --ext .jsx --ext .js src/",
-    "precommit": "lint-staged"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "precommit": "lint-staged",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "./src/**/*.{js,jsx}": [
