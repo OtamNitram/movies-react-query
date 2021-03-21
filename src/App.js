@@ -1,10 +1,21 @@
 import React from 'react';
 
+import { QueryClient, QueryClientProvider } from 'react-query';
+
+import MovieView from './services/views/MovieView';
+
+const queryClient = new QueryClient();
+
 function App() {
   return (
-    <div>
-      <h1>Movies</h1>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <div>
+        <header className="py-5 bg-gray-700 text-white text-center">
+          Star Wars List
+        </header>
+        <MovieView></MovieView>
+      </div>
+    </QueryClientProvider>
   );
 }
 
