@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to movies-react-query 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D14.15.4%20%3C15.0-blue.svg" />
   <img src="https://img.shields.io/badge/npm-%3E%3D7.0.0-blue.svg" />
   <a href="https://twitter.com/otamnitram" target="_blank">
